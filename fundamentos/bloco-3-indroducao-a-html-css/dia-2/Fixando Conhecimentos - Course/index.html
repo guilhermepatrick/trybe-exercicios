@@ -2,18 +2,45 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
-    <title>HTML</title>
+    <title>Dia 2 | CSS</title>
     <style>
+        body{
+            font-size: 16px;
+        }
 
         h1{
             font-size: 65px;
+            font-family: sans-serif;
+            color: orange;
+        }
+       
+        .mudaCor{
+            font-style: italic;
+            background-color: blue;
+            
+        }
+
+        p{
+            font-weight: 600;
+            font-size: 3em;
+            text-align: center;
+            
+        }
+        #listaAmarelo{
+            background-color: yellow;
+        }
+        #listaVermelho{
+            background-color: red;
+        }
+        #listaMarrom{
+            background-color: brown;
         }
         ul{
-            background-color: gray;
+            font-size: 2em;
+            text-decoration: underline;
+            line-height: 2em;
         }
-        .mudaCor{
-            color: blue;
-        }
+        
 
     </style>
   </head>
@@ -21,16 +48,24 @@
     <h1>Exercícios 3.2</h1>
     <p class="mudaCor">Qual é a sua cor favorita?</p>
     <ul class="mudaCor">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="listaAmarelo">Amarelo</li>
+      <li id="listaVermelho">Vermelho</li>
+      <li id="listaMarrom">Marrom</li>
     </ul>
   </body>
 </html>
 
 <!--
-1- Modifique o tamanho do h1 para 65 pixels
-2 - Modifique a cor do texto do h1 para laranja
-3 - Modifique a cor de fundo da lista não ordenada
-4 - Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo
+Parte 1
+1- Modifique o tamanho do h1 para 65 pixels ok
+2 - Modifique a cor do texto do h1 para laranja ok
+3 - Modifique a cor de fundo da lista não ordenada ok
+4 - Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo ok
+Parte 2
+1 - Modifique o font-family do h1 para sans-serif ok
+2 - Deixe o parágrafo com o font-weight 600 ok
+3 - Modifique o font-size do body para 16px ok
+4 - Coloque o tamanho do parágrafo com o tamanho de 3 vezes o padrão do body ok
+5 - Explore as propriedades font-style, line-height, text-align e text-decoration ok 
+6 - Troque a cor de fundo de cada item da lista para a cor correspondente ao texto ok
 --> 
